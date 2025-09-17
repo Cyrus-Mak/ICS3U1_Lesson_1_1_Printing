@@ -26,6 +26,31 @@ System.out.print("There!!");
 ```
 Similar to `println()`, `print()` outputs to the screen, however, there is no newline placed after the what is outputted.
 
+### Concatenation (Joining Text Together)
+In Java, we can combine strings together using the `+` operator. This is known as **concatenation**. It's useful when you want to build up output from multiple pieces of text or variables:
+
+```
+System.out.println("Hello " + "World!");
+```
+
+This will output:
+
+```
+Hello World!
+```
+
+We can also concatenate text with variable values:
+
+```
+String name = "Mr. Cheng";
+System.out.println("Hello, " + name);
+```
+
+This will output:
+
+```
+Hello, Mr. Cheng
+```
 
 ## Comments
 In our programs, we often have content that we want the compiler to ignore and not translate.  Some reasons are:
