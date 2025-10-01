@@ -15,7 +15,7 @@ class PrintingComments extends ConsoleProgram {
     
     // multiline comment
     
-    
+    System.out.println("Hello");
 
   }
 }
